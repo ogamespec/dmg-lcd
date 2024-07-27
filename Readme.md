@@ -34,6 +34,11 @@ lcd_x_cable: TODO
 
 ![LH5076F_10x_Fused_sm](/imgstore/LH5076F_10x_Fused_sm.jpg)
 
+![LH5076F_Topo](/imgstore/LH5076F_Topo.jpg)
+
+|![lcd_y_driver_control](/hdl/lcd_y_driver_control.jpg)|![ydriver_control](/hdl/ydriver_control.jpg)|
+|---|---|
+
 ## References
 
 - @Gekkio gb-schematics: https://github.com/Gekkio/gb-schematics/tree/main/DMG-LCD-06
