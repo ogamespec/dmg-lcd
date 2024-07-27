@@ -33,3 +33,8 @@ lcd_x_cable: TODO
 ### Y Driver Chip (907), Smaller
 
 ![LH5076F_10x_Fused_sm](/imgstore/LH5076F_10x_Fused_sm.jpg)
+
+## References
+
+- @Gekkio gb-schematics: https://github.com/Gekkio/gb-schematics/tree/main/DMG-LCD-06
+- Some related datasheet (SHARP LH1511/1512): https://www.datasheets360.com/pdf/6856220246305420697
