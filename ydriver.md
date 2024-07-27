@@ -5,6 +5,8 @@ Tech process:
 - 1 layer of metal (aluminum)
 - metal gates
 
+![topo](/imgstore/topo.jpg)
+
 ## Pinout
 
 |Port|Direction|Description|
