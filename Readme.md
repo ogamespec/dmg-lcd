@@ -36,8 +36,7 @@ lcd_x_cable: TODO
 
 ![LH5076F_Topo](/imgstore/LH5076F_Topo.jpg)
 
-|![lcd_y_driver_control](/hdl/lcd_y_driver_control.png)|![ydriver_control](/hdl/ydriver_control.png)|
-|---|---|
+More: ydriver.md
 
 ## References
 
