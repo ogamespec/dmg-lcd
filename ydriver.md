@@ -1,5 +1,10 @@
 # Y Driver Chip (907), Smaller
 
+Tech process:
+- CMOS (It is not very clear how the pockets are formed, most likely the bordered GND frame also defines the pocket boundaries)
+- 1 layer of metal (aluminum)
+- metal gates
+
 ## Pinout
 
 |Port|Direction|Description|
