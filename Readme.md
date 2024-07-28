@@ -49,5 +49,6 @@ More: TBD
 
 ## References
 
+- Datasets: https://drive.google.com/drive/u/2/folders/135kfy3TXbBCZrIURcFWBzPcHQeeMNe5Y
 - @Gekkio gb-schematics: https://github.com/Gekkio/gb-schematics/tree/main/DMG-LCD-06
 - Some related datasheet (SHARP LH1511/1512): https://www.datasheets360.com/pdf/6856220246305420697
