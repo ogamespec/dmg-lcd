@@ -37,8 +37,6 @@
 
 ![LH5076F_10x_Fused_sm](/imgstore/LH5076F_10x_Fused_sm.jpg)
 
-![LH5076F_Topo](/imgstore/LH5076F_Topo.jpg)
-
 More: ydriver.md
 
 ### X Driver Chip (908), Bigger
