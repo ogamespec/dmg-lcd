@@ -1,5 +1,8 @@
 # DMG LCD
 
+- Made by SHARP
+- 160x144 pixels
+
 ## Disassembling
 
 ![dis_001](/imgstore/dis_001.jpg)
@@ -18,17 +21,17 @@
 
 (I hope I'm calling them "cables" correctly? It doesn't look like a cable, but in eng literature this word is used for some reason. In ru we call them "шлейфы": https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C)
 
-lcd_x_cable: TODO
+## Y Cable (LH5076F + 907)
 
 ![lcd_y_cable](/imgstore/lcd_y_cable.jpg)
+
+## X Cable (LH5077F + 908)
+
+![lcd_x_cable](/imgstore/lcd_x_cable.jpg)
 
 ## ICs
 
 ![die_size](/imgstore/die_size.jpg)
-
-### X Driver Chip (908), Bigger
-
-![LH5077F_10x_Fused_sm](/imgstore/LH5077F_10x_Fused_sm.jpg)
 
 ### Y Driver Chip (907), Smaller
 
@@ -37,6 +40,12 @@ lcd_x_cable: TODO
 ![LH5076F_Topo](/imgstore/LH5076F_Topo.jpg)
 
 More: ydriver.md
+
+### X Driver Chip (908), Bigger
+
+![LH5077F_10x_Fused_sm](/imgstore/LH5077F_10x_Fused_sm.jpg)
+
+More: TBD
 
 ## References
 
