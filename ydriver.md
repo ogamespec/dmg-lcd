@@ -16,7 +16,7 @@ Tech process:
 |---|---|---|
 |VDD|input|Power |
 |GND|input|Ground |
-|V1|output|Bias voltage V1; Why output? |
+|V1|input|Bias voltage V1 |
 |V4|input|Bias voltage V4 |
 |V5|input|Bias voltage V5 |
 |FR|input|Frame Reset (?) |
