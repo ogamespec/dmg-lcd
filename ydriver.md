@@ -27,7 +27,7 @@ Tech process:
 |CPL|input|Clock (?) Complement (?) where the names of the signals came from? |
 |Y1-Y144|output|LCD drive output|
 
-## Control
+## Common Driver Control
 
 |![ydriver_control_topo](/hdl/ydriver_control_topo.png)|![ydriver_control](/hdl/ydriver_control.png)|
 |---|---|
