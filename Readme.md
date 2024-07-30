@@ -50,3 +50,5 @@ More: TBD
 - Datasets: https://drive.google.com/drive/u/2/folders/135kfy3TXbBCZrIURcFWBzPcHQeeMNe5Y
 - @Gekkio gb-schematics: https://github.com/Gekkio/gb-schematics/tree/main/DMG-LCD-06
 - Some related datasheet (SHARP LH1511/1512): https://www.datasheets360.com/pdf/6856220246305420697
+- GameBoy Pocket LCD sim(?): https://github.com/zephray/driving-lcds/blob/main/gbp/stnlcd.c
+- GameBoy Pocket LCD info: https://web.archive.org/web/20240628020006/https://zephray.me/post/gbp_lcd_driving/   (archived)
