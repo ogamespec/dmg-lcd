@@ -14,11 +14,11 @@ Tech process:
 
 |Port|Direction|Description|
 |---|---|---|
-|VDD|input|Power |
-|GND|input|Ground |
-|V1|input|Bias voltage V1 |
-|V4|input|Bias voltage V4 |
-|V5|input|Bias voltage V5 |
+|VDD|input|Digital Power. Also used as analog Power for output drivers when FR=1 |
+|GND|input|Digital Ground |
+|V1|input|Bias voltage V1. Used as analog Power for output drivers when FR=0 |
+|V4|input|Bias voltage V4. Used as analog Ground for output drivers when FR=1 |
+|V5|input|Bias voltage V5. Used as analog Ground for output drivers when FR=0 |
 |FR|input|Frame Reset (?) |
 |S|input|Select (?) **S**hift Register Input (?) |
 |CPL|input|Clock (?) Complement (?) where the names of the signals came from? |
@@ -33,7 +33,11 @@ Tech process:
 
 Middle part with giant MOSFETs.
 
-TBD.
+The `FR` signal is used to switch the power supply to the output drivers (high-power inverters). The `FR` signal complement (a pair of `fr_int` + `n_fr_int` signals) is obtained in the control circuit.
+
+![ydriver_amp_tran](/hdl/ydriver_amp_tran.png)
+
+![ydriver_amp_simpl](/hdl/ydriver_amp_simpl.png)
 
 ## Driver Lane
 
