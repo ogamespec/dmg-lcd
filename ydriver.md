@@ -14,8 +14,9 @@ Tech process:
 
 |Port|Direction|Description|
 |---|---|---|
-|VDD|input|Digital Power. Also used as analog Power for output drivers when FR=1 |
+|VDD|input|Digital Power |
 |GND|input|Digital Ground |
+|V0|input|Bias voltage V0. Used as analog Power for output drivers when FR=1; Hardwired to VDD in DMG. |
 |V1|input|Bias voltage V1. Used as analog Power for output drivers when FR=0 |
 |V4|input|Bias voltage V4. Used as analog Ground for output drivers when FR=1 |
 |V5|input|Bias voltage V5. Used as analog Ground for output drivers when FR=0 |

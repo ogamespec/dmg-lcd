@@ -66,6 +66,10 @@
       <a name="appearance" val="NewPins"/>
       <a name="label" val="V5"/>
     </comp>
+    <comp lib="0" loc="(130,130)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="V0"/>
+    </comp>
     <comp lib="0" loc="(130,420)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="V1"/>
@@ -160,7 +164,6 @@
     <comp lib="0" loc="(2670,550)" name="Transistor">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(380,130)" name="Power"/>
     <comp lib="0" loc="(440,210)" name="Transistor">
       <a name="facing" val="south"/>
     </comp>
@@ -212,20 +215,17 @@
       <a name="type" val="n"/>
     </comp>
     <comp lib="1" loc="(400,900)" name="NOT Gate"/>
-    <comp lib="8" loc="(1528,619)" name="Text">
+    <comp lib="8" loc="(1525,615)" name="Text">
       <a name="text" val="FR = 1"/>
     </comp>
-    <comp lib="8" loc="(1529,99)" name="Text">
+    <comp lib="8" loc="(1525,95)" name="Text">
       <a name="text" val="FR = 0"/>
     </comp>
-    <comp lib="8" loc="(2794,767)" name="Text">
+    <comp lib="8" loc="(2790,765)" name="Text">
       <a name="text" val="fr_int"/>
     </comp>
-    <comp lib="8" loc="(2831,709)" name="Text">
+    <comp lib="8" loc="(2830,705)" name="Text">
       <a name="text" val="n_fr_int"/>
-    </comp>
-    <comp lib="8" loc="(385,109)" name="Text">
-      <a name="text" val="VDD"/>
     </comp>
     <wire from="(1000,310)" to="(1000,360)"/>
     <wire from="(1000,360)" to="(1000,430)"/>
@@ -245,6 +245,7 @@
     <wire from="(1290,400)" to="(1290,500)"/>
     <wire from="(1290,400)" to="(1340,400)"/>
     <wire from="(1290,500)" to="(1340,500)"/>
+    <wire from="(130,130)" to="(400,130)"/>
     <wire from="(130,420)" to="(400,420)"/>
     <wire from="(1340,330)" to="(1340,340)"/>
     <wire from="(1340,330)" to="(1400,330)"/>
@@ -410,7 +411,6 @@
     <wire from="(2780,540)" to="(2780,630)"/>
     <wire from="(2880,420)" to="(2880,720)"/>
     <wire from="(2920,370)" to="(2920,750)"/>
-    <wire from="(380,130)" to="(400,130)"/>
     <wire from="(400,130)" to="(400,170)"/>
     <wire from="(400,170)" to="(400,280)"/>
     <wire from="(400,170)" to="(440,170)"/>
@@ -493,7 +493,7 @@
     </comp>
     <comp lib="0" loc="(170,260)" name="Pin">
       <a name="appearance" val="NewPins"/>
-      <a name="label" val="VDD"/>
+      <a name="label" val="V0"/>
     </comp>
     <comp lib="0" loc="(170,310)" name="Pin">
       <a name="appearance" val="NewPins"/>
