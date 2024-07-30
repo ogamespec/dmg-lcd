@@ -31,6 +31,19 @@ Tech process:
 |![lcd_y_driver_control](/hdl/lcd_y_driver_control.png)|![ydriver_control](/hdl/ydriver_control.png)|
 |---|---|
 
+![ydriver_control_schem](/hdl/ydriver_control_schem.png)
+
+|Signal|Where To|Description|
+|---|---|---|
+|fr_int |Driver Amps | Signal `FR` for Driver Amps |
+|n_fr_int |Driver Amps | Complement of `FR` signal for Driver Amps (feature of Amp operation requires a complement input) |
+|fr_int_buffed | Driver Lanes| Signal `FR` for Lanes|
+|ck1 | Driver Lanes| |
+|ck2 | Driver Lanes| |
+|ck3 | Driver Lanes| |
+|ck4 | Driver Lanes| |
+|s_int | Lane 0 | Internal signal `S` |
+
 ## Driver Amps
 
 Middle part with giant MOSFETs.
