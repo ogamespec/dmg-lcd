@@ -7,6 +7,7 @@ Tech process:
 - CMOS (bordered GND frame defines the P-pocket boundaries)
 - 1 layer of metal (aluminum)
 - metal gates
+- Package type: TAB
 
 |![topo](/imgstore/topo.jpg)|![pocket](/imgstore/pocket.jpg)|
 |---|---|
