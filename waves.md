@@ -10,7 +10,7 @@ There's a slight difference in how CPL/FR signals behave before settling to thei
 
 ![lcd1](/imgstore/lcd1.png)  ![lcd2](/imgstore/lcd2.png)
 
-> dnariq — 17.01.2024 20:50
+> lidnariq — 17.01.2024 20:50
 ```
 huh, how come FR keeps toggling if the GB loses track of frames?
 ```
