@@ -35,9 +35,9 @@ Middle part with giant MOSFETs.
 
 The `FR` signal is used to switch the power supply to the output drivers (high-power inverters). The `FR` signal complement (a pair of `fr_int` + `n_fr_int` signals) is obtained in the control circuit.
 
-![ydriver_amp_tran](/hdl/ydriver_amp_tran.png)
+![ydriver_amp_tran](/imgstore/ydriver_amp_tran.png)
 
-![ydriver_amp_simpl](/hdl/ydriver_amp_simpl.png)
+![ydriver_amp_simpl](/imgstore/ydriver_amp_simpl.png)
 
 ## Driver Lane
 
