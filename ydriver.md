@@ -57,6 +57,22 @@ The `FR` signal is used to switch the power supply to the output drivers (high-p
 
 ## Driver Lane
 
-![ydriver_lane_topo](/hdl/ydriver_lane_topo.jpg)
+|![ydriver_lane_topo](/hdl/ydriver_lane_topo.jpg)|![ydriver_lane](/hdl/ydriver_lane.png)|
+|---|---|
 
-TBD.
+![ydriver_lane_schem](/hdl/ydriver_lane_schem.png)
+
+Features:
+- A shift register of an unfamiliar design: the input bit is fed to a multiplexer and the output is mixed via nand3 with the output of the _next_ bit
+- CLK alternates between even and odd bits
+- For even bits: ck of the multiplexer is connected to `ck2`, nand3 is connected to `ck4`
+- For odd bits: ck of the multiplexer is connected to `ck1`, nand3 is connected to `ck3`
+- Signals ck1-ck4 are arbitrarily named and are obtained in the control circuitry (see above)
+
+### Invering Level Shifter (LS)
+
+It pulls the digital ground to the analog ground so that the subsequent super-inverter can operate at the desired voltage levels. The LS output is inverting. The input is in complementary logic (dual rails).
+
+Analysis:
+
+![level_shifter_inv](/imgstore/level_shifter_inv.png)
