@@ -4,11 +4,12 @@
 |---|---|
 
 Tech process:
-- CMOS (It is not very clear how the pockets are formed, most likely the bordered GND frame also defines the pocket boundaries)
+- CMOS (bordered GND frame defines the P-pocket boundaries)
 - 1 layer of metal (aluminum)
 - metal gates
 
-![topo](/imgstore/topo.jpg)
+|![topo](/imgstore/topo.jpg)|![pocket](/imgstore/pocket.jpg)|
+|---|---|
 
 ## Pinout
 
