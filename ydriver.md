@@ -69,7 +69,7 @@ Features:
 - For odd bits: ck of the multiplexer is connected to `ck1`, nand3 is connected to `ck3`
 - Signals ck1-ck4 are arbitrarily named and are obtained in the control circuitry (see above)
 
-### Invering Level Shifter (LS)
+### Inverting Level Shifter (LS)
 
 It pulls the digital ground to the analog ground so that the subsequent super-inverter can operate at the desired voltage levels. The LS output is inverting. The input is in complementary logic (dual rails).
 
