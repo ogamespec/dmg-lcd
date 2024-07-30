@@ -29,7 +29,7 @@ Tech process:
 
 ## Control
 
-|![lcd_y_driver_control](/hdl/lcd_y_driver_control.png)|![ydriver_control](/hdl/ydriver_control.png)|
+|![ydriver_control_topo](/hdl/ydriver_control_topo.png)|![ydriver_control](/hdl/ydriver_control.png)|
 |---|---|
 
 ![ydriver_control_schem](/hdl/ydriver_control_schem.png)
@@ -56,5 +56,7 @@ The `FR` signal is used to switch the power supply to the output drivers (high-p
 ![ydriver_amp_simpl](/imgstore/ydriver_amp_simpl.png)
 
 ## Driver Lane
+
+![ydriver_lane_topo](/hdl/ydriver_lane_topo.jpg)
 
 TBD.
