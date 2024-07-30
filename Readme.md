@@ -33,13 +33,13 @@
 
 ![die_size](/imgstore/die_size.jpg)
 
-### Y Driver Chip (907), Smaller
+### Y Driver Chip (907) aka Common Driver, Smaller
 
 ![LH5076F_10x_Fused_sm](/imgstore/LH5076F_10x_Fused_sm.jpg)
 
 More: ydriver.md
 
-### X Driver Chip (908), Bigger
+### X Driver Chip (908) aka Segment Driver, Bigger
 
 ![LH5077F_10x_Fused_sm](/imgstore/LH5077F_10x_Fused_sm.jpg)
 

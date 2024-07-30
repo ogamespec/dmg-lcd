@@ -1,3 +1,3 @@
-# X Driver Chip (908), Bigger
+# X Driver Chip (908) aka Segment Driver, Bigger
 
 TBD.

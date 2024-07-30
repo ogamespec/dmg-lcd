@@ -1,4 +1,4 @@
-# Y Driver Chip (907), Smaller
+# Y Driver Chip (907) aka Common Driver, Smaller
 
 |![LH5076F_Topo](/imgstore/LH5076F_Topo.jpg)|![LH5076F_Topo_Poly](/imgstore/LH5076F_Topo_Poly.jpg)|
 |---|---|
