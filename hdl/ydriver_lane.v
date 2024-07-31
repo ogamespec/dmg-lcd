@@ -52,7 +52,7 @@ module ydriver_lane (  Driver_GND, Driver_VDD, Lane_out, fr_int_buffed, ck_for_n
 	ydriver_lane_level_shifter_inv g6 (.a(w7), .na(w8), .x(w9) );
 	ydriver_lane_nand3 g7 (.x(w10), .a(w12), .b(w11), .c(w13) );
 	ydriver_lane_not g8 (.a(w17), .x(w13) );
-	ydriver_lane_mux_i0_i1_inv g9 (.cck(w14), .ck(w15), .i0(w16), .i1(w13), .x(w17) );
+	ydriver_lane_mux_i0_i1_inv g9 (.cck(w14), .ck(w15), .i1(w16), .i0(w13), .x(w17) );
 endmodule // ydriver_lane
 
 // Module Definitions [It is possible to wrap here on your primitives]
@@ -64,6 +64,8 @@ module ydriver_lane_biased_super_inv (  a, x, avdd, agnd);
 	input wire avdd;
 	input wire agnd;
 
+	assign x = ~a;
+
 endmodule // ydriver_lane_biased_super_inv
 
 module ydriver_lane_weird_square (  a, x);
@@ -71,12 +73,17 @@ module ydriver_lane_weird_square (  a, x);
 	input wire a;
 	output wire x;
 
+	// fake, just pass through
+	assign x = a;
+
 endmodule // ydriver_lane_weird_square
 
 module ydriver_lane_not (  a, x);
 
 	input wire a;
 	output wire x;
+
+	assign x = ~a;
 
 endmodule // ydriver_lane_not
 
@@ -87,6 +94,8 @@ module ydriver_lane_aoi (  a0, a1, b, x);
 	input wire b;
 	output wire x;
 
+	assign x = ~((a0&a1) | b);
+
 endmodule // ydriver_lane_aoi
 
 module ydriver_lane_nor (  a, b, x);
@@ -95,6 +104,8 @@ module ydriver_lane_nor (  a, b, x);
 	input wire b;
 	output wire x;
 
+	assign x = ~(a|b);
+
 endmodule // ydriver_lane_nor
 
 module ydriver_lane_level_shifter_inv (  a, na, x);
@@ -102,6 +113,9 @@ module ydriver_lane_level_shifter_inv (  a, na, x);
 	input wire a;
 	input wire na;
 	output wire x;
+
+	// fake
+	assign x = na;
 
 endmodule // ydriver_lane_level_shifter_inv
 
@@ -112,6 +126,8 @@ module ydriver_lane_nand3 (  x, a, b, c);
 	input wire b;
 	input wire c;
 
+	assign x = ~(a & b & c);
+
 endmodule // ydriver_lane_nand3
 
 module ydriver_lane_mux_i0_i1_inv (  cck, ck, i0, i1, x);
@@ -121,6 +137,8 @@ module ydriver_lane_mux_i0_i1_inv (  cck, ck, i0, i1, x);
 	input wire i0;
 	input wire i1;
 	output wire x;
+
+	assign x = ck ? ~i1 : ~i0;
 
 endmodule // ydriver_lane_mux_i0_i1_inv
 

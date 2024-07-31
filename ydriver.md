@@ -69,6 +69,10 @@ Features:
 - For odd bits: ck of the multiplexer is connected to `ck1`, nand3 is connected to `ck3`
 - Signals ck1-ck4 are arbitrarily named and are obtained in the control circuitry (see above)
 
+For the last driver, extra-mux is used to get the next_bit_val:
+
+![ydriver_terminating_mux](/imgstore/ydriver_terminating_mux.jpg)
+
 ### Inverting Level Shifter (LS)
 
 It pulls the digital ground to the analog ground so that the subsequent super-inverter can operate at the desired voltage levels. The LS output is inverting. The input is in complementary logic (dual rails).
@@ -76,3 +80,7 @@ It pulls the digital ground to the analog ground so that the subsequent super-in
 Analysis:
 
 ![level_shifter_inv](/imgstore/level_shifter_inv.png)
+
+## Putting it all Together
+
+![ydriver_schem](/hdl/ydriver_schem.png)

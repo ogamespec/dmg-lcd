@@ -111,6 +111,8 @@ module ydriver_control_not (  a, x);
 	input wire a;
 	output wire x;
 
+	assign x = ~a;
+
 endmodule // ydriver_control_not
 
 module ydriver_control_nand (  b, a, x);
@@ -119,6 +121,8 @@ module ydriver_control_nand (  b, a, x);
 	input wire a;
 	output wire x;
 
+	assign x = ~(a&b);
+
 endmodule // ydriver_control_nand
 
 module ydriver_control_super_not (  a, x);
@@ -126,12 +130,16 @@ module ydriver_control_super_not (  a, x);
 	input wire a;
 	output wire x;
 
+	assign x = ~a;
+
 endmodule // ydriver_control_super_not
 
 module ydriver_control_buf (  a, x);
 
 	input wire a;
 	output wire x;
+
+	assign x = a;
 
 endmodule // ydriver_control_buf
 
@@ -143,6 +151,8 @@ module ydriver_control_mux (  ck, cck, i1, i0, x);
 	input wire i0;
 	output wire x;
 
+	assign x = ck ? i1 : i0;
+
 endmodule // ydriver_control_mux
 
 module ydriver_control_mux_i0_inv (  ck, cck, i1, i0, x);
@@ -153,6 +163,8 @@ module ydriver_control_mux_i0_inv (  ck, cck, i1, i0, x);
 	input wire i0;
 	output wire x;
 
+	assign x = ck ? i1 : ~i0;
+
 endmodule // ydriver_control_mux_i0_inv
 
 module ydriver_control_mux_i0_i1_inv (  ck, cck, x, i0, i1);
@@ -162,6 +174,8 @@ module ydriver_control_mux_i0_i1_inv (  ck, cck, x, i0, i1);
 	output wire x;
 	input wire i0;
 	input wire i1;
+
+	assign x = ck ? ~i1 : ~i0;
 
 endmodule // ydriver_control_mux_i0_i1_inv
 
