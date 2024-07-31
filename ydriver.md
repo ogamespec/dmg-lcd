@@ -69,7 +69,7 @@ Features:
 - For odd bits: ck of the multiplexer is connected to `ck1`, nand3 is connected to `ck3`
 - Signals ck1-ck4 are arbitrarily named and are obtained in the control circuitry (see above)
 
-For the last driver, extra-mux is used to get the next_bit_val:
+For the last driver, extra-mux is used to get the `next_bit_out` value:
 
 ![ydriver_terminating_mux](/imgstore/ydriver_terminating_mux.jpg)
 
