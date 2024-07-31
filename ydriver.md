@@ -22,10 +22,12 @@ Tech process:
 |V1|input|Bias voltage V1. Used as analog Power for output drivers when FR=0 |
 |V4|input|Bias voltage V4. Used as analog Ground for output drivers when FR=1 |
 |V5|input|Bias voltage V5. Used as analog Ground for output drivers when FR=0 |
-|FR|input|Frame Reset (?) |
-|S|input|Select (?) **S**hift Register Input (?) |
-|CPL|input|Clock (?) Complement (?) where the names of the signals came from? |
+|FR|input|LCD alterating signal; FR is used to stop the LCD plating out (destroying the LCD material with DC), it inverts the drivers |
+|S|input|Common display sync signal (VSync). Used as input value for the shift register |
+|CPL|input|Signal data latch signal. Used as CLK for Y-Driver chip|
 |Y1-Y144|output|LCD drive output|
+
+Signal names from the DMG service manual.
 
 ## Common Driver Control
 
